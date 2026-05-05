@@ -394,6 +394,7 @@ img {
   inset: -40%;
   background: radial-gradient(circle at 0 0, rgba(56, 189, 248, 0.2), transparent 50%);
   opacity: 0;
+  pointer-events: none;
   transform: translate3d(-10%, -10%, 0);
   transition: opacity 0.25s ease, transform 0.25s ease;
 }
